@@ -1,0 +1,1245 @@
+@charset "UTF-8";
+body {
+    overflow-y: hidden;
+}
+
+.content-div {
+    border: 1px solid #d2dae6;
+    margin-top: 4px;
+}
+
+.content-div2 {
+    border: 1px solid #d2dae6;
+}
+
+.index {
+    height: 100%;
+}
+
+.index .el-header {
+    background-color: white;
+    text-align: right;
+    min-width: 1000px;
+    max-width: 100%;
+}
+
+.index .el-header .logo {
+    float: left;
+    padding: 20px;
+}
+
+.index .el-header .logo img {
+    margin: 10px;
+}
+
+.index .el-header .header-right {
+    line-height: 100px;
+    padding-right: 20px;
+}
+
+.index .el-header .header-right span {
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.index .el-header .header-right span i {
+    font-size: 30px;
+    vertical-align: bottom;
+}
+
+.index .header-div {
+    height: 35px;
+    overflow: hidden;
+    line-height: 35px;
+    background: #fff;
+}
+
+.index .header-right {
+    float: right;
+    color: #3e3f42;
+    text-align: right;
+    font-size: 12px;
+    line-height: 35px;
+    padding-right: 20px;
+}
+
+.index .header-right li {
+    float: left;
+    margin-left: 19px;
+}
+
+.index .el-menu {
+    border-right: none;
+    width: 100%;
+}
+
+.index .el-menu .is-active {
+    color: #fff;
+}
+
+.index .content {
+    background-color: #EAECF2;
+}
+
+.index .aside-div {
+    width: 180px;
+    box-sizing: border-box;
+    border-right: 1px solid #DCDFE6;
+    height: 100vh;
+    position: relative;
+}
+
+.index .hide-aside {
+    overflow: hidden;
+    height: 100%;
+    width: 12px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.index .hide-aside .hide-p {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    color: #333;
+    top: 50%;
+}
+
+.index .el-aside {
+    background-color: #1665d8;
+    color: #26262b;
+    overflow-x: hidden;
+}
+
+.index .el-aside::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 5px;
+    /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+
+.index .el-aside::-webkit-scrollbar-thumb {
+    /*滚动条里面小方块*/
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 5px #1665d8;
+    background: #1665d8;
+}
+
+.index .el-aside::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px #1665d8;
+    border-radius: 10px;
+    background: #EDEDED;
+}
+
+.index .el-aside .el-menu {
+    background-color: #26262B;
+    box-sizing: border-box;
+}
+
+.index .el-menu .is-opened {
+    background-color: #26262B;
+}
+
+.index .is-active .el-submenu__title,
+.index .is-opened .el-submenu__title,
+.index .el-submenu__title {
+    background-color: #26262B;
+    color: #8098C4;
+    box-sizing: border-box;
+}
+
+.index .el-menu .el-submenu__title:hover {
+    background-color: #26262B !important;
+    color: #fff;
+}
+
+.index .el-submenu__title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 13px;
+}
+
+.index .el-submenu .el-menu-item {
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+}
+
+.index .el-menu-item,
+.index .el-menu-item i {
+    color: #cccccc;
+}
+
+.index .el-menu-item:hover {
+    background-color: #26262B !important;
+}
+
+.index .is-active {
+    background-color: #26262B !important;
+    color: white;
+}
+
+.index .logo {
+    height: 50px;
+}
+
+.index .logo img {
+    width: 60%;
+    height: auto;
+    margin: 10px;
+}
+
+.index .el-main {
+    color: #333;
+    margin: 0px auto;
+    max-width: 100%;
+    padding: 0;
+}
+
+.index .header-title {
+    color: #3E3F42;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+}
+
+.index .header-title i {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.index .el-pagination__total {
+    margin-top: 3px;
+}
+
+.index .el-divider--horizontal {
+    margin: 0;
+}
+
+.index .el-pagination.is-background .btn-next,
+.index .el-pagination.is-background .btn-prev,
+.index .el-pagination.is-background .el-pager li {
+    border: 1px solid #E7E9F0;
+    min-width: 20px;
+}
+
+.index .el-table th,
+.index .el-table td {
+    text-align: center;
+}
+
+.index .title {
+    margin-top: 9px;
+    width: 161px;
+    height: 30px;
+    background: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    color: #3E3F42;
+    line-height: 30px;
+    text-align: center;
+}
+
+.index .title i {
+    color: #166bce;
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 16px;
+}
+
+.index .button-div {
+    overflow: hidden;
+    background: #dbeaf4;
+    border: 1px solid #d2dae6;
+}
+
+.index .button-div button {
+    width: auto;
+    height: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    background: rgba(234, 236, 242, 0);
+    border: none;
+    color: #3E3F42;
+    padding: 0 6px 0 5px;
+    line-height: 25px;
+}
+
+.index .button-div .el-button:focus,
+.index .button-div .el-button:hover {
+    color: #3E3F42;
+    border: none;
+    background: rgba(234, 236, 242, 0);
+    transform: scale(1.2);
+}
+
+.index .button-div .el-button:active {
+    color: #3E3F42;
+}
+
+.index .el-button.is-disabled,
+.index .el-button.is-disabled:focus,
+.index .el-button.is-disabled:hover {
+    color: #3E3F42;
+    border: none;
+    background: rgba(234, 236, 242, 0);
+}
+
+.index .button-div-query {
+    margin: 0;
+}
+
+.index .el-pagination {
+    text-align: right;
+    padding: 6px 10px 6px 10px;
+}
+
+.index .el-pagination .el-pager .active {
+    background: #1665d8;
+    color: #fff;
+}
+
+.index .el-pagination .el-input--mini .el-input__inner {
+    height: 24px;
+}
+
+.index .el-pagination.is-background .btn-prev,
+.index .el-pagination.is-background .btn-next,
+.index .el-pagination.is-background .el-pager li {
+    background-color: #fff;
+}
+
+.index .el-pagination button,
+.index .el-pagination span:not([class*=suffix]) {
+    font-size: 12px;
+    min-width: 0;
+    height: 22px;
+    line-height: 22px;
+}
+
+.index .el-pagination__editor.el-input .el-input__inner {
+    height: 22px;
+}
+
+.index .el-pagination .btn-prev {
+    margin-right: 12px;
+}
+
+.index .el-pagination .el-select .el-input .el-input__inner {
+    font-size: 12px;
+}
+
+.index .el-pagination .el-select .el-input .el-select__caret {
+    vertical-align: -4px;
+}
+
+.index .el-tabs__header {
+    margin-bottom: 5px;
+}
+
+.index .el-tabs .el-tabs__nav-scroll {
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+
+.index .el-tabs .el-tabs__nav {
+    height: 28px;
+    border-color: #cccccc !important;
+}
+
+.index .el-tabs .el-tabs--card>.el-tabs__header .el-tabs__nav {
+    border: none !important;
+}
+
+.index .el-tabs .el-tabs__nav .el-tabs__item {
+    width: auto;
+    height: 100%;
+    line-height: 26px;
+    text-align: center;
+    box-sizing: border-box;
+    border-left-color: #cccccc;
+    font-size: 12px;
+}
+
+.index .el-tabs .el-tabs__nav .el-tabs__item:last-child {
+    margin: 0;
+    border-radius: 0 4px 0 0;
+}
+
+.index .el-tabs .el-tabs__nav .el-tabs__item:first-child {
+    border-radius: 4px 0 0 0;
+}
+
+.index .el-tabs .el-tabs__nav .is-active {
+    background: #1665d8 !important;
+    color: #fff;
+    border: none;
+}
+
+.index .el-tabs .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background: #1665d8 !important;
+}
+
+.index .el-tabs--card>.el-tabs__header .el-tabs__item .el-icon-close {
+    top: -2px;
+}
+
+.index .query-button {
+    background: #1665d8;
+    color: #3E3F42;
+    border: none;
+}
+
+.el-pagination {
+    text-align: left;
+    padding: 15px 0 40px 0;
+}
+
+.el-pagination .btn-next,
+.el-pagination .btn-prev {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #E7E9F0;
+}
+
+.el-pagination .el-pager li {
+    background: #fff;
+    width: 22px;
+    height: 22px;
+    line-height: 18px;
+    font-size: 12px;
+    min-width: 0;
+    font-weight: 400;
+    border: 1px solid #E7E9F0;
+    margin: 0 4px 0 4px;
+}
+
+.el-pagination .el-pager .active {
+    background: #1665d8;
+    color: #3E3F42;
+}
+
+.el-pagination .el-pager li.active+li {
+    border-left: 1px solid #E7E9F0;
+}
+
+.el-tabs .el-tabs__nav-scroll {
+    width: 100%;
+    border-bottom: 1px solid #DCDFE6;
+}
+
+.el-tabs .el-tabs--card>.el-tabs__header .el-tabs__nav {
+    border: none;
+}
+
+.el-tabs .el-tabs__nav .el-tabs__item:first-child {
+    border-bottom: none;
+}
+
+.el-tabs .el-tabs__item:hover {
+    color: #1665d8;
+}
+
+.el-tabs .el-submenu,
+.el-tabs .el-submenu__title {
+    width: 100%;
+}
+
+.el-tabs .el-tabs__nav .is-active,
+.el-tabs .el-submenu .is-active,
+.el-tabs .el-submenu.is-opened,
+.el-tabs .el-submenu__title:hover {
+    background: #1665d8 !important;
+    color: #fff;
+    border: none;
+}
+
+.el-tabs .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background: #1665d8;
+}
+
+.el-tabs .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #1665d8;
+}
+
+.input-div {
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+    text-align: left;
+    position: relative;
+    min-height: 20px;
+    border: 1px solid #d2dae6;
+    padding-left: 20px;
+}
+
+.input-div .hide-input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.input-div .hide-input:hover {
+    color: #3E3F42;
+}
+
+.input-div .hide-input:hover .el-icon-caret-bottom:before {
+    color: #3E3F42;
+}
+
+.input-div .hide-input:hover .el-icon-caret-top:before {
+    color: #3E3F42;
+}
+
+.input-div label {
+    width: 30%;
+    font-size: 12px;
+    color: #333;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.input-div .el-col label::after {
+    content: "：";
+}
+
+.input-div .el-radio::after,
+.input-div .el-checkbox__input::after,
+.input-div .el-checkbox.a_chech::after {
+    content: "" !important;
+}
+
+.input-div label[required]::before {
+    content: "*";
+    color: #f56c6c;
+    margin-right: 4px;
+}
+
+.input-div .input-div .el-col-5,
+.input-div .el-col-5 {
+    width: 24%;
+    margin-top: 10px;
+}
+
+.input-div .el-col {
+    margin-top: 10px;
+    text-align: right;
+    position: relative;
+}
+
+.input-div .el-col .comicon {
+    width: 70%;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    cursor: pointer;
+    padding-right: 6px;
+}
+
+.input-div .el-col .el-input__icon {
+    height: 24px;
+    line-height: 24px;
+}
+
+.input-div .el-col .el-icon-search:before {
+    font-size: 12px !important;
+}
+
+.input-div .el-col .el-inputs,
+.input-div .el-col .el-date-editor,
+.input-div .el-col .el-select {
+    height: 24px;
+    width: 70% !important;
+}
+
+.input-div .el-col .el-inputs,
+.input-div .el-col .el-input__inner {
+    height: 24px;
+    background: #fff;
+    color: #333;
+    font-size: 12px;
+    border-color: #97999e !important;
+}
+
+.input-div .el-col .el-input__inner {
+    width: 100%;
+}
+
+.input-div .el-input.is-disabled .el-input__inner {
+    height: 24px;
+}
+
+.input-div .el-col:last-child {
+    margin-bottom: 10px;
+}
+
+.input-div .el-input--small .el-input__inner {
+    height: 24px;
+}
+
+.input-div .el-range-editor--mini.el-input__inner {
+    height: 24px;
+    padding: 0 10px;
+}
+
+.input-div .el-col-24 {
+    width: auto;
+}
+
+.input-div .el-col-btn {
+    text-align: left;
+    margin-left: 0px !important;
+}
+
+.input-div .el-col-btn .button-div {
+    margin: 0px auto;
+    text-align: center;
+    background: #dbeaf4;
+}
+
+.input-div .el-col-btn button {
+    width: 54px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #1665d8;
+    color: #1665d8;
+    padding: 0 6px 0 5px;
+    line-height: 25px;
+}
+
+.input-div .el-col-btn .query-button {
+    background: #1665d8 !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.iconfont {
+    vertical-align: -1px;
+    font-size: 14px;
+}
+
+.el-badge .el-badge__content.is-fixed {
+    top: 15px;
+    right: 10px;
+}
+
+.el-badge .el-badge__content {
+    -webkit-text-size-adjust: none;
+    font-size: 9px;
+    background-color: #FF8E2F;
+    border-radius: 100%;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 6px;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+}
+
+.el-icon-message:before,
+.el-icon-tickets:before {
+    font-size: 16px;
+    vertical-align: -1px;
+}
+
+.el-select-dropdown__item.selected {
+    color: #1665d8;
+}
+
+.el-table-div {
+    background: #fff;
+    border: 1px solid #d2dae6;
+}
+
+.content-view {
+    height: calc(100vh - 70px);
+}
+
+.content-view>div {
+    border: 1px solid #d2dae6;
+    margin-top: 4px;
+}
+
+.el-pagination__total,
+.el-pagination__sizes {
+    float: left;
+}
+
+.el-table {
+    width: 99%;
+    margin: 1px;
+    border: 1px solid #d2dae6 !important;
+    color: #333;
+}
+
+.el-table tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+.el-table th,
+.el-table td {
+    padding: 0 !important;
+    border: 1px solid #EAEDF3 !important;
+    border-top: none !important;
+    border-left: none !important;
+}
+
+.el-table tr td .cell {
+    line-height: 24px !important;
+    font-size: 12px;
+}
+
+.el-table tr th .cell {
+    background-color: #1665D8;
+    height: 24px !important;
+    line-height: 24px !important;
+    color: #fff !important;
+    font-weight: normal;
+}
+
+.el-table .thead {
+    color: #1A1A1A;
+    line-height: 24px;
+    font-size: 12px !important;
+}
+
+.el-table .el-checkbox__inner {
+    width: 12px;
+    height: 12px;
+}
+
+.el-table .el-checkbox__input.is-checked .el-checkbox__inner {
+    background-color: #1665d8;
+    border-color: #1665d8;
+}
+
+.el-table .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #1665d8;
+    border-color: #1665d8;
+}
+
+.must-full {
+    font-size: 14px;
+    vertical-align: middle;
+    color: red;
+}
+
+@media screen and (max-width: 1100px) {
+    .index .el-main {
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .index .el-main {
+        min-width: 1130px;
+    }
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+.el-table__body-wrapper::-webkit-scrollbar {
+    width: 0px;
+    height: 12px;
+    background-color: #F5F5F5;
+}
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+.el-table__body-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+
+/*定义滑块 内阴影+圆角*/
+
+.el-table__body-wrapper::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px #4159a8;
+    background-color: rgba(65, 89, 168, 0.1);
+}
+
+.el-dialog__body {
+    padding: 0px 20px 10px 20px !important;
+    color: #606266;
+    font-size: 14px;
+    word-break: break-all;
+}
+
+.el-dialog__header {
+    padding: 0 !important;
+    padding-bottom: 0 !important;
+    background: #1665D8;
+    height: 40px !important;
+    padding-left: 18px !important;
+}
+
+.el-dialog__header .el-dialog__title {
+    line-height: 40px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.button-div2 {
+    margin-top: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.button-div2 .el-button {
+    width: auto;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #1665d8;
+    color: #1665d8;
+    padding: 0 6px 0 5px;
+    line-height: 25px;
+}
+
+.button-div2 .el-button:hover {
+    background: #1665d8;
+    color: #fff;
+    border: 1px solid #1665d8;
+}
+
+.button-div2 .el-icon-search:before {
+    font-size: 12px !important;
+}
+
+.button-div .el-icon-search:before {
+    font-size: 12px !important;
+}
+
+.el-dropdown-menu__item {
+    font-size: 12px !important;
+    padding: 0 10px !important;
+    line-height: 30px !important;
+}
+
+.index .el-pagination {
+    margin: 0 !important;
+}
+
+input::-webkit-input-placeholder {
+    /* placeholder字体大小  */
+    font-size: 12px;
+}
+
+.el-table thead {
+    font-size: 12px !important;
+}
+
+.el-dropdown {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.el-dropdown-link {
+    cursor: pointer;
+}
+
+.el-icon-arrow-down {
+    font-size: 12px;
+}
+
+.index {
+    /*****审核弹窗****/
+}
+
+.index .index-div3 {
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+    text-align: left;
+    position: relative;
+    min-height: 14px;
+    border: 1px solid #d2dae6;
+    padding-left: 20px;
+}
+
+.index .index-div3 .el-col-5 {
+    width: 24%;
+    position: relative;
+    margin-top: 10px;
+}
+
+.index .index-div3 .el-col-24 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.index .index-div3 .el-col .el-inputs .el-input__inner,
+.index .index-div3 .input-div .el-col .el-input__inner {
+    height: 24px !important;
+    border-color: #97999e !important;
+    font-size: 12px !important;
+}
+
+.index .index-div3 .el-input.is-disabled .el-input__inner {
+    height: 24px;
+
+}
+
+.index .index-div3 .el-col .el-select .el-input .el-input__inner {
+    height: 24px;
+    border-color: #97999e !important;
+    font-size: 12px !important;
+}
+
+.index .index-div3 .el-col:last-child {
+    margin-bottom: 10px;
+}
+
+.index .index-div3 .el-input {
+    width: 70%;
+    height: 24px;
+    font-size: 12px;
+}
+
+.index .index-div3 .el-input .el-input__inner {
+    font-size: 12px !important;
+    border-color: #97999e !important;
+    width: 100%;
+}
+
+.index .index-div3 .el-select {
+    width: 70%;
+}
+
+.index .index-div3 .el-select .el-input {
+    width: 100%;
+}
+
+.index .index-div3 .el-input2 {
+    height: 24px;
+    width: 70%;
+    border-color: #97999e !important;
+}
+
+.index .index-div3 label {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.index .index-div3 .el-textarea {
+    width: 88.7%;
+    font-size: 12px;
+}
+
+.index .index-div3 textarea {
+    border-color: #909399 !important;
+    min-height: 26px !important;
+}
+
+.index .index-div3 label::after {
+    content: "：";
+}
+
+.index .index-div3 .el-col .comicon {
+    width: 70%;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    cursor: pointer;
+    text-align: right;
+    padding-right: 6px;
+}
+
+.index .index-div3 .el-col .el-col:last-child {
+    margin-right: 0;
+}
+
+.index .index-div3 .hide-input {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    color: #ccc;
+    font-size: 12px;
+}
+
+.index .index-div3 .hide-input:hover {
+    color: #3E3F42;
+}
+
+.index .index-div3 .hide-input:hover .el-icon-caret-bottom:before {
+    color: #3E3F42;
+}
+
+.index .index-div3 .hide-input:hover .el-icon-caret-top:before {
+    color: #3E3F42;
+}
+
+.index .index-div3 .el-col-btn {
+    margin: 10px;
+    width: 100%;
+    position: relative;
+    margin-left: 0px !important;
+}
+
+.index .index-div3 .el-col-btn .button-div {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.index .index-div3 .el-select .el-input .el-select__caret {
+    line-height: 24px;
+}
+
+.index .index-div3 .el-select-dropdown__item {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.index .index-div4 {
+    border: 1px solid #d2dae6;
+}
+
+.index .index-div4 .el-col-5 {
+    width: 25%;
+    margin-left: 0;
+}
+
+.index .index-div4 .el-select {
+    width: 70%;
+}
+
+.index .index-div4 .el-select .el-input {
+    width: 100%;
+}
+
+.index .index-div4 .el-input,
+.index .index-div4 .el-select {
+    width: 65%;
+}
+
+.index .index-div4 .el-input2 {
+    height: 24px;
+    width: 65%;
+}
+
+.index .index-div4 label {
+    width: 32%;
+}
+
+.index .index-div4 .el-col .comicon {
+    width: 65%;
+}
+
+.index .search-div {
+    height: 42px;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+.index .change-height {
+    height: auto;
+}
+
+.index .el-select .el-input__inner,
+.index .el-input .el-input__inner {
+    height: 24px !important;
+    font-size: 12px !important;
+}
+
+.index .el-select:hover .el-input__inner {
+    height: 24px;
+    border-color: #97999e !important;
+}
+
+.index .el-input--small .el-input__inner {
+    height: 24px;
+    border-color: #97999e !important;
+}
+
+.index .el-icon-search:before {
+    font-size: 12px !important;
+}
+
+.index .el-input.is-disabled .el-input__inner {
+    height: 24px !important;
+}
+
+.index .el-input--small .el-input__inner {
+    height: 24px !important;
+    line-height: 24px !important;
+}
+
+.index .el-select .el-input .el-select__caret {
+    line-height: 24px;
+}
+
+.index .addBut {
+    height: 26px;
+    padding: 0;
+    width: auto;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    background: rgba(234, 236, 242, 0);
+    border: none;
+    color: #3e3f42;
+    padding: 0 6px 0 5px;
+    margin-bottom: 0;
+}
+
+.index .sub-title {
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #A0A2A7;
+}
+
+.index .comicon2 {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    cursor: pointer;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.index .el-input--small .el-input__icon {
+    line-height: 24px;
+}
+
+.index .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #1665d8;
+}
+
+.index .el-date-editor .el-range__icon {
+    height: 23px;
+    line-height: 23px;
+}
+
+.index .el-col-textarea {
+    margin-bottom: 10px;
+}
+
+.index .el-col-textarea label {
+    width: 6.4%;
+    vertical-align: 8px;
+}
+
+.index .dialog-search-div {
+    height: 42px;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+.index .change-height {
+    height: auto;
+}
+
+.index .el-dropdown {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.index .examine-dialog {
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.index .examine-dialog .tips {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ea8d14;
+}
+
+.index .examine-dialog .tips .el-icon-info {
+    color: #1665D8;
+}
+
+.index .examine-dialog .el-col {
+    width: 80%;
+    line-height: 24px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.index .examine-dialog .el-col label {
+    display: inline-block;
+    width: 35%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.index .examine-dialog .el-col label:after {
+    content: "：";
+}
+
+.index .examine-dialog .el-col .el-input2,
+.index .examine-dialog .el-col .el-select,
+.index .examine-dialog .el-col .el-textarea {
+    width: 178px;
+}
+
+.index .examine-dialog .el-col .el-input__icon {
+    line-height: 24px;
+}
+
+.index .examine-dialog input::-webkit-input-placeholder,
+.index .examine-dialog textarea::-webkit-input-placeholder {
+    /* placeholder字体大小  */
+    font-size: 12px;
+}
+
+.index .examine-dialog textarea {
+    border-color: #909399 !important;
+    font-size: 12px;
+}
+
+.el-input__suffix-inner .el-icon-search::before {
+    line-height: 25px;
+    padding-right: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.el-dialog .el-table{
+    max-height: 500px;
+    overflow-y: scroll;
+}

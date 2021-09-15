@@ -1,0 +1,265 @@
+{
+    "code": 200,
+    "msg": "success",
+    "data": [{
+            "menuName": "系统",
+            "icon": "el-icon-menu",
+            "url": "systemIndex",
+            "children": []
+        },
+        {
+            "menuName": "公共数据",
+            "url": "",
+            "children": [{
+                "menuName": "汇率管理",
+                "url": "exchange"
+            }, {
+                "menuName": "银行主数据",
+                "url": "bankData"
+            }, {
+                "menuName": "货币主数据",
+                "url": "currencyData"
+            }, {
+                "menuName": "单位数据",
+                "url": "unitManage"
+            }]
+        }, {
+            "menuName": "产品数据",
+            "url": "",
+            "children": [{
+                "menuName": "物料属性",
+                "url": "MaterialProperties"
+            }, {
+                "menuName": "物料大类",
+                "url": "MaterialClassification"
+            }, {
+                "menuName": "物料属性组",
+                "url": "MaterialPropertiesList"
+            }, {
+                "menuName": "物料档案",
+                "url": "MaterialFiles"
+            }]
+        }, {
+            "menuName": "基础数据",
+            "url": "",
+            "children": [{
+                    "menuName": "客户管理",
+                    "url": "customer"
+                }, {
+                    "menuName": "供应商管理",
+                    "url": "supplier"
+                }, {
+                    "menuName": "仓库管理",
+                    "url": "warehouseData"
+                }, {
+                    "menuName": "公司管理",
+                    "url": "companyMan"
+                }, {
+                    "menuName": "部门管理",
+                    "url": "comDepartment"
+                }, {
+                    "menuName": "员工管理",
+                    "url": "staffData"
+                }, {
+                    "menuName": "港口管理",
+                    "url": "portData"
+                },
+                {
+                    "menuName": "项目管理",
+                    "url": "projectMaintenance"
+                }
+            ]
+        },
+        {
+            "menuName": "信用管理",
+            "url": "",
+            "children": [{
+                "menuName": "信用账户组管理",
+                "url": "creditGroup"
+            }, {
+                "menuName": "信用账户组信用额度",
+                "url": "creditGroupCredit"
+            }, {
+                "menuName": "信用账户组额度查询",
+                "url": "creditGroupCreditQuery"
+            }, {
+                "menuName": "客户信用额度",
+                "url": "customerCredit"
+            }, {
+                "menuName": "客户信用额度查询",
+                "url": "customerCreditQuery"
+            }, {
+                "menuName": "供应商信用额度",
+                "url": "supplierCredit"
+            }, {
+                "menuName": "供应商信用额度查询",
+                "url": "supplierCreditQuery"
+            }]
+        },
+        {
+            "menuName": "合同协议",
+            "url": "",
+            "children": [{
+                "menuName": "双边合同",
+                "url": "bilateralContracts"
+            }, {
+                "menuName": "内贸销售合同",
+                "url": "domesticContract"
+            }, {
+                "menuName": "出口销售合同",
+                "url": "exportContract"
+            }, {
+                "menuName": "框架协议",
+                "url": "frameContract"
+            }, {
+                "menuName": "内贸采购合同",
+                "url": "netradeContract"
+            }, {
+                "menuName": "进口采购合同",
+                "url": "jktradeContract"
+            }]
+        },
+        {
+            "menuName": "采购管理",
+            "url": "",
+            "children": [{
+                    "menuName": "采购提单",
+                    "url": "ladingBill"
+                },
+                {
+                    "menuName": "采购入库",
+                    "url": "warehousing"
+                },
+                {
+                    "menuName": "采购冲销/退货",
+                    "url": "reverse"
+                },
+                {
+                    "menuName": "采购发票",
+                    "url": "invoice"
+                }
+            ]
+        },
+        {
+            "menuName": "销售管理",
+            "url": "",
+            "children": [{
+                    "menuName": "销售出库单",
+                    "url": "salesIssueDoc"
+                },
+                {
+                    "menuName": "销售退货单",
+                    "url": "salesReturnOrder"
+                },
+                {
+                    "menuName": "销售发票",
+                    "url": "salesInvoice"
+                },
+                {
+                    "menuName": "结算单",
+                    "url": "settlementSheet"
+                }
+            ]
+        },
+        {
+            "menuName": "库存管理",
+            "url": "",
+            "children": [{
+                "menuName": "其他入库",
+                "url": "otherWarehousing"
+            }, {
+                "menuName": "其他出库",
+                "url": "otherOutlets"
+            }, {
+                "menuName": "库存调拨",
+                "url": "stockControl"
+            }, {
+                "menuName": "码单管理",
+                "url": "codeSheet"
+            }]
+        },
+        {
+            "menuName": "资金管理",
+            "url": "",
+            "children": [{
+                "menuName": "收款管理",
+                "url": "",
+                "children": [{
+                    "menuName": "收款单",
+                    "url": "creditNotes"
+                }, {
+                    "menuName": "收款单认领",
+                    "url": "creditNoteReclaims"
+                }]
+            }, {
+                "menuName": "付款管理",
+                "url": "",
+                "children": [{
+                    "menuName": "付款单",
+                    "url": "paymentOrder"
+                }, {
+                    "menuName": "付款申请单",
+                    "url": "demandForPayment"
+                }]
+            }, {
+                "menuName": "票据管理",
+                "url": "",
+                "children": [{
+                    "menuName": "应付票据",
+                    "url": "paymentBills"
+                }, {
+                    "menuName": "应收票据",
+                    "url": "receivableBills"
+                }]
+            }, {
+                "menuName": "信用证管理",
+                "url": "",
+                "children": [{
+                    "menuName": "收到信用证",
+                    "url": "firstIndex"
+                }, {
+                    "menuName": "开出信用证",
+                    "url": "establishmentIndex"
+                }]
+            }, {
+                "menuName": "月结模块",
+                "url": "",
+                "children": [{
+                    "menuName": "月结",
+                    "url": "monthlyStatementPage"
+                }]
+            }, {
+                "menuName": "凭证模块",
+                "url": "",
+                "children": [{
+                    "menuName": "凭证推送",
+                    "url": "credentials"
+                }]
+            }, {
+                "menuName": "结售汇管理",
+                "url": "",
+                "children": [{
+                    "menuName": "结售汇申请",
+                    "url": "fiSettleApplyList"
+                }, {
+                    "menuName": "结售汇执行",
+                    "url": "fiSettleExecuteList"
+                }]
+            }]
+        },
+        {
+            "menuName": "费用管理",
+            "url": "",
+            "children": [{
+                "menuName": "费用类别管理",
+                "url": "costCategory"
+            }, {
+                "menuName": "费用预提",
+                "url": "costPrefetch"
+            }, {
+                "menuName": "费用结算",
+                "url": "costSettle"
+            }]
+        }
+    ]
+}
